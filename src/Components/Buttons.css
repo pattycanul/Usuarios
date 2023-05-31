@@ -1,0 +1,44 @@
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    margin-top: 0;
+    background: lightgray;
+    width: 30%;
+    height: 50px;margin-left: 35%;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 15px;
+}
+
+
+.buttons {
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.btn-añadir, .btn-eliminar, .btn-modificar {
+    margin: 0 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn-añadir {
+    background: rgb(0, 153, 255);
+}
+
+.btn-eliminar {
+    background: rgb(204, 36, 13);
+}
+
+.btn-modificar {
+    background: rgb(88, 88, 88);
+}
